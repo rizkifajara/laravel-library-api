@@ -1,6 +1,7 @@
    version: '3.8'
    services:
      app:
+       image: rizkifajar456/laravel-library-api:app-latest
        build:
          context: .
          dockerfile: Dockerfile
@@ -21,7 +22,7 @@
          REDIS_HOST: redis
          REDIS_PORT: 6379
      webserver:
-       image: nginx:alpine
+       image: rizkifajar456/laravel-library-api:nginx-latest
        ports:
          - "8000:80"
        volumes: 
@@ -31,7 +32,7 @@
          - app
 
      db:
-       image: postgres:16
+       image: rizkifajar456/laravel-library-api:postgres-latest
        environment:
          POSTGRES_DB: library_db
          POSTGRES_USER: postgres
@@ -47,7 +48,7 @@
          retries: 5
 
      redis:
-       image: redis:alpine
+       image: rizkifajar456/laravel-library-api:redis-latest
        ports:
          - "6379:6379"
 
