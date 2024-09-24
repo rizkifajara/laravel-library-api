@@ -1,0 +1,92 @@
+# Laravel specific
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.*
+!.env.example
+.phpactor.json
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+/.fleet
+/.idea
+/.vscode
+/.zed
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+/docker/data
+*.log
+/.docker-sync
+docker-sync.yml
+
+# Kubernetes
+kubeconfig
+*.kubeconfig
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Build process
+/build
+/dist
+
+# Dependency directories
+/jspm_packages
+/bower_components
+
+# Cache directories
+/.sass-cache
+/.cache
+
+# Misc
+/.vagrant
+.phpunit.result.cache
+.php_cs.cache
+.php-cs-fixer.cache
+.php_cs
+.php-cs-fixer.php
+coverage.xml
+*.coverage
+*.coveragexml
+*.pyc
+__pycache__/
