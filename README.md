@@ -137,6 +137,14 @@ docker-compose down
 Without Docker:
 If you're running the application with `php artisan serve`, you can stop it by pressing `Ctrl+C` in the terminal where it's running.
 
+## API Documentation
+
+For detailed API documentation and examples, please refer to our Postman collection:
+
+[Laravel Library REST API Documentation](https://documenter.getpostman.com/view/14410986/2sAXqv4g58)
+
+This documentation provides a comprehensive overview of all available endpoints, request/response formats, and example usage.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
